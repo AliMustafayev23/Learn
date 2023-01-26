@@ -1,0 +1,74 @@
+.learnfrom{
+    background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    .learnfrombody{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+        height: 100vh;
+        .learnfromleft{
+            .addmissionnow{
+                padding: 10px;
+                border-radius: 20px;
+                height: 60px;
+                width: 150px;
+                background-color: #5A50E5;
+                color: white;
+                cursor: pointer;
+                border-style:none;
+                &:hover{
+                    background-color: #3229ad;
+                }
+                    }
+        }
+        .learnfromright{
+            background-color: white;
+            border-radius: 10px;
+            color: black;
+            width: 20%;
+            height: 40%;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        justify-content: center;
+      padding-left: 5%;
+        row-gap: 15px;
+        .signup{
+            padding: 10px;
+            border-radius: 20px;
+            height: 50px;
+            width: 100px;
+            background-color: #5A50E5;
+            color: white;
+            cursor: pointer;
+            border-style:none;
+            &:hover{
+                background-color: #3229ad;
+            }
+                }
+        input{
+            width: 70%;
+            padding: 10px;
+            border-radius: 10px;
+            border-color: grey;
+            outline-color: #5A50E5;
+        }
+        }
+    }
+}
+@media only screen and (max-width: 992px){
+    .learnfrombody{
+        flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+        row-gap: 20px;
+        .learnfromright{
+            width: 100%;
+            
+        }
+    }
+}

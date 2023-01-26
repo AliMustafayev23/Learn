@@ -1,0 +1,23 @@
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    height: 100vh;
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    .delet{
+        padding: 10px;
+        border-radius: 10px;
+        height: 50px;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border-style:none;
+        &:hover{
+            background-color: rgb(235, 113, 113);
+        }
+            }
+}

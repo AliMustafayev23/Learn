@@ -1,0 +1,25 @@
+.ourprograms{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .ourprogramsdown{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+        img{
+            width: 700px;
+            height: 700px;
+        }
+    }
+}
+@media only screen and (max-width: 992px){
+    
+    .ourprogramsdown{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}

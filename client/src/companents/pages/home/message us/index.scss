@@ -1,0 +1,43 @@
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .messageus{
+        display: flex;
+        
+        flex-direction: column;
+    
+        row-gap: 20px;
+        input{
+            padding: 10px;
+            border-radius: 10px;
+            width: 400px;
+            outline-color:#5A50E5;
+            border-color: grey;
+        }
+        .name{
+            display: flex;
+        column-gap: 20px;
+        }
+        .send{
+            padding: 10px;
+            border-radius: 20px;
+            height: 50px;
+            width: 300px;
+            background-color: #5A50E5;
+            color: white;
+            cursor: pointer;
+            border-style:none;
+            &:hover{
+                background-color: #3229ad;
+            }
+                }
+    }
+}
+@media only screen and (max-width: 992px){
+    .message,.name{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
